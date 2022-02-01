@@ -1,0 +1,16 @@
+
+server:
+  port: 9015
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LuceroAm/mc_config_server/tree/feature 
+      name: config-server
+
+
+security:
+  user: root
+  password: 1234
